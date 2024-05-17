@@ -38,7 +38,7 @@ const Navbar = () => {
             );
           })}
           <button className="bg-gray-50 px-3 py-1 pb-2 hover:bg-gray-400 rounded mt-2 text-gray-900 md:mt-[-0.2px]  md:ml-8 ">
-            <a href="" className="capitalize text-xl">Resume</a>
+            <a href="https://drive.google.com/file/d/1YMccBD0suu-e7FWl8NGEEXxjF_Zx-gwh/view?usp=drivesdk" className="capitalize text-xl">Resume</a>
           </button>
         </ul>
       </div>
