@@ -2,6 +2,7 @@ import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact, FaGitAlt, FaNode } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { TbBrandRedux } from "react-icons/tb";
+import { SiTailwindcss } from "react-icons/si";
 import jobImg from "./assets/Jobster.jpeg";
 import comfyImg from "./assets/comfy.png";
 import MixImg from "./assets/MixMaster.png";
@@ -11,6 +12,7 @@ export const links = [
   { id: nanoid(), href: "#skills", text: "skills" },
   { id: nanoid(), href: "#about", text: "about" },
   { id: nanoid(), href: "#projects", text: "projects" },
+
   // { id: nanoid(), href: "#contact", text: "contact" },
 ];
 
@@ -55,6 +57,12 @@ export const skills = [
     id: nanoid(),
     title: "Git",
     icon: <FaGitAlt className="h-16 w-16 text-orange-600" />,
+    text: "Proficient in Git, adept at version control, branching, merging, and resolving conflicts to streamline collaborative software development processes.",
+  },
+  {
+    id: nanoid(),
+    title: "Tailwind CSS",
+    icon: <SiTailwindcss className="h-16 w-16 text-orange-600" />,
     text: "Proficient in Git, adept at version control, branching, merging, and resolving conflicts to streamline collaborative software development processes.",
   },
 ];

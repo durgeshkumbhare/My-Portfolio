@@ -28,7 +28,10 @@ const Navbar = () => {
           {links.map((link) => {
             return (
               <li key={link.id} className=" md:ml-8 text-xl ">
-                <a onClick={()=>{setToggleBtn(!toggleBtn)}}
+                <a
+                  onClick={() => {
+                    setToggleBtn(!toggleBtn);
+                  }}
                   href={link.href}
                   className="capitalize text-gray-50 hover:text-gray-400 duration-300 "
                 >
@@ -38,7 +41,12 @@ const Navbar = () => {
             );
           })}
           <button className="bg-gray-50 px-3 py-1 pb-2 hover:bg-gray-400 rounded mt-2 text-gray-900 md:mt-[-0.2px]  md:ml-8 ">
-            <a href="https://drive.google.com/file/d/1YMccBD0suu-e7FWl8NGEEXxjF_Zx-gwh/view?usp=drivesdk" className="capitalize text-xl">Resume</a>
+            <a
+              href="https://drive.google.com/file/d/118ClQo9iD4bOZ7_x3Sd0N19TGRUF-IC-/view"
+              className="capitalize text-xl"
+            >
+              Resume
+            </a>
           </button>
         </ul>
       </div>
